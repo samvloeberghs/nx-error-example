@@ -1,4 +1,5 @@
 import styles from './page.module.css';
+import { ReactComponent as AsicLogoSvg } from './asic-logo.svg';
 
 export default function Index() {
   /*
@@ -15,6 +16,7 @@ export default function Index() {
               <span> Hello there, </span>
               Welcome example 👋
             </h1>
+            <AsicLogoSvg />
           </div>
 
           <div id="hero" className="rounded">
